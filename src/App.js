@@ -16,6 +16,7 @@ export class App extends Component {
         this.setState({ posts: response.data })
       })
       .catch(error => {
+        console.log("data here..")
         console.log(error);
 
       })
